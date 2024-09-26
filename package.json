@@ -1,0 +1,25 @@
+{
+  "name": "cleancode",
+  "version": "1.0.0",
+  "description": "new text\r hellow world\r # Hellow everyone\r # Rolling scopes \r new text\r hellow world\r # cool fix",
+  "main": "function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint function.js",
+    "lint:fix": "npm run lint -- --fix",
+    "prett": "npx prettier function.js --check",
+    "prett:fix": "npm run prett -- --write",
+    "format": "npm run prett && npm run lint",
+    "format:fix": "npm run prett:fix && npm run lint:fix",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0",
+    "husky": "^9.1.6",
+    "prettier": "3.3.3"
+  }
+}
