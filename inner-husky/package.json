@@ -4,13 +4,7 @@
     "prettier": "^3.5.0"
   },
 
-  "husky": 
-  {
-    "hooks": 
-    {
-      "pre-commit": "npm run format"
-    }
-  },
+  
 
   "scripts": {
     "prepare": "cd .. && husky",
